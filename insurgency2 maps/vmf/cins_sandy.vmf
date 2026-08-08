@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7737"
-	"mapversion" "140"
+	"mapversion" "150"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -11,16 +11,16 @@ visgroups
 }
 viewsettings
 {
-	"bSnapToGrid" "0"
+	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "1"
 }
 world
 {
 	"id" "1"
-	"mapversion" "140"
+	"mapversion" "150"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -34,7 +34,7 @@ world
 		{
 			"id" "25193"
 			"plane" "(-6147 6111 -2) (6145 6111 -2) (6145 -6113 -2)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -45,7 +45,7 @@ world
 		{
 			"id" "25194"
 			"plane" "(-6147 -6113 -43) (6145 -6113 -43) (6145 6111 -43)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -56,7 +56,7 @@ world
 		{
 			"id" "25195"
 			"plane" "(-6147 6111 -2) (-6147 -6113 -2) (-6147 -6113 -43)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -67,7 +67,7 @@ world
 		{
 			"id" "25196"
 			"plane" "(6145 6111 -43) (6145 -6113 -43) (6145 -6113 -2)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -78,7 +78,7 @@ world
 		{
 			"id" "25197"
 			"plane" "(6145 6111 -2) (-6147 6111 -2) (-6147 6111 -43)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -89,7 +89,7 @@ world
 		{
 			"id" "25198"
 			"plane" "(6145 -6113 -43) (-6147 -6113 -43) (-6147 -6113 -2)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -44767,7 +44767,7 @@ world
 		{
 			"id" "24937"
 			"plane" "(3744 1648 0) (6144 1648 0) (6144 -2064 0)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -256] 0.25"
 			"rotation" "0"
@@ -44909,7 +44909,7 @@ world
 		{
 			"id" "24938"
 			"plane" "(3744 -2064 -2) (6144 -2064 -2) (6144 1648 -2)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -256] 0.25"
 			"rotation" "0"
@@ -45051,7 +45051,7 @@ world
 		{
 			"id" "24939"
 			"plane" "(3744 1648 0) (3744 -2064 0) (3744 -2064 -2)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0 1 0 256] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -45193,7 +45193,7 @@ world
 		{
 			"id" "24940"
 			"plane" "(6144 1648 -2) (6144 -2064 -2) (6144 -2064 0)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0 1 0 256] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -45335,7 +45335,7 @@ world
 		{
 			"id" "24941"
 			"plane" "(6144 1648 0) (3744 1648 0) (3744 1648 -2)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -45477,7 +45477,7 @@ world
 		{
 			"id" "24942"
 			"plane" "(6144 -2064 -2) (3744 -2064 -2) (3744 -2064 0)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -46488,7 +46488,7 @@ world
 		{
 			"id" "18"
 			"plane" "(-6147 6111 -2) (-6147 -6113 -2) (6145 -6113 -2)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 4] 0.25"
 			"vaxis" "[0 -1 0 380.002] 0.25"
 			"rotation" "0"
@@ -46630,7 +46630,7 @@ world
 		{
 			"id" "17"
 			"plane" "(-6147 -6113 0) (-6147 -6113 -2) (-6147 6111 -2)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0 1 0 3.99829] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -46772,7 +46772,7 @@ world
 		{
 			"id" "16"
 			"plane" "(6145 6111 0) (6145 6111 -2) (6145 -6113 -2)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0 1 0 3.99829] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -46914,7 +46914,7 @@ world
 		{
 			"id" "15"
 			"plane" "(-6147 6111 0) (-6147 6111 -2) (6145 6111 -2)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 4] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -47056,7 +47056,7 @@ world
 		{
 			"id" "14"
 			"plane" "(6145 -6113 0) (6145 -6113 -2) (-6147 -6113 -2)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 4] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -47198,7 +47198,7 @@ world
 		{
 			"id" "13"
 			"plane" "(-6147 -6113 0) (-6147 6111 0) (6145 6111 0)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 4] 0.25"
 			"vaxis" "[0 -1 0 124.002] 0.25"
 			"rotation" "0"
@@ -47890,7 +47890,7 @@ world
 		{
 			"id" "5203"
 			"plane" "(-1440 4896 -6) (2752 4896 -6) (2752 2112 -6)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -48032,7 +48032,7 @@ world
 		{
 			"id" "5204"
 			"plane" "(-1440 2112 -7) (2752 2112 -7) (2752 4896 -7)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -48174,7 +48174,7 @@ world
 		{
 			"id" "5205"
 			"plane" "(-1440 4896 -6) (-1440 2112 -6) (-1440 2112 -7)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -44] 0.25"
 			"rotation" "0"
@@ -48316,7 +48316,7 @@ world
 		{
 			"id" "5206"
 			"plane" "(2752 4896 -7) (2752 2112 -7) (2752 2112 -6)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -44] 0.25"
 			"rotation" "0"
@@ -48458,7 +48458,7 @@ world
 		{
 			"id" "5207"
 			"plane" "(2752 4896 -6) (-1440 4896 -6) (-1440 4896 -7)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -44] 0.25"
 			"rotation" "0"
@@ -48600,7 +48600,7 @@ world
 		{
 			"id" "5208"
 			"plane" "(2752 2112 -7) (-1440 2112 -7) (-1440 2112 -6)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -44] 0.25"
 			"rotation" "0"
@@ -48752,7 +48752,7 @@ world
 		{
 			"id" "5220"
 			"plane" "(-3970.48 -900.767 -6) (-759.221 -3595.33 -6) (-2548.74 -5728 -6)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0.766044 -0.642788 0 -5.7533] 0.25"
 			"vaxis" "[-0.642788 -0.766044 0 -296.81] 0.25"
 			"rotation" "0"
@@ -48894,7 +48894,7 @@ world
 		{
 			"id" "5219"
 			"plane" "(-5760 -3033.43 -7) (-2548.74 -5728 -7) (-759.221 -3595.33 -7)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0.766044 -0.642788 0 -5.7533] 0.25"
 			"vaxis" "[-0.642788 -0.766044 0 -296.81] 0.25"
 			"rotation" "0"
@@ -49036,7 +49036,7 @@ world
 		{
 			"id" "5218"
 			"plane" "(-3970.48 -900.767 -6) (-5760 -3033.43 -6) (-5760 -3033.43 -7)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0.642788 0.766044 0 296.81] 0.25"
 			"vaxis" "[0 0 -1 -44] 0.25"
 			"rotation" "0"
@@ -49178,7 +49178,7 @@ world
 		{
 			"id" "5217"
 			"plane" "(-759.221 -3595.33 -7) (-2548.74 -5728 -7) (-2548.74 -5728 -6)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0.642788 0.766044 0 296.81] 0.25"
 			"vaxis" "[0 0 -1 -44] 0.25"
 			"rotation" "0"
@@ -49320,7 +49320,7 @@ world
 		{
 			"id" "5216"
 			"plane" "(-759.221 -3595.33 -6) (-3970.48 -900.767 -6) (-3970.48 -900.767 -7)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0.766044 -0.642788 0 -5.7533] 0.25"
 			"vaxis" "[0 0 -1 -44] 0.25"
 			"rotation" "0"
@@ -49462,7 +49462,7 @@ world
 		{
 			"id" "5215"
 			"plane" "(-2548.74 -5728 -7) (-5760 -3033.43 -7) (-5760 -3033.43 -6)"
-			"material" "MAPS/TERRAIN/BLEND_SAND_CLIFF_SAND_01_IR"
+			"material" "DEV/DEV_SAND"
 			"uaxis" "[0.766044 -0.642788 0 -5.7533] 0.25"
 			"vaxis" "[0 0 -1 -44] 0.25"
 			"rotation" "0"
@@ -83557,6 +83557,16 @@ world
 	}
 	group
 	{
+		"id" "27181"
+		editor
+		{
+			"color" "255 228 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
 		"id" "26500"
 		editor
 		{
@@ -89557,6 +89567,7 @@ entity
 	"spawnflags" "2"
 	"SquadID" "-1"
 	"StartDisabled" "0"
+	"targetname" "sz2"
 	"TeamNum" "2"
 	solid
 	{
@@ -89575,7 +89586,7 @@ entity
 		side
 		{
 			"id" "25095"
-			"plane" "(5122 -3037 7.62939e-006) (5122 -5268 7.62939e-006) (5859 -5268 7.62939e-006)"
+			"plane" "(5122 -3037 0) (5122 -5268 0) (5859 -5268 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 36] 0.25"
 			"vaxis" "[0 -1 0 12] 0.25"
@@ -89586,7 +89597,7 @@ entity
 		side
 		{
 			"id" "25094"
-			"plane" "(5122 -5268 7.62939e-006) (5122 -3037 7.62939e-006) (5122 -3037 170)"
+			"plane" "(5122 -5268 0) (5122 -3037 0) (5122 -3037 170)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -12] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -89597,7 +89608,7 @@ entity
 		side
 		{
 			"id" "25093"
-			"plane" "(5859 -3037 7.62939e-006) (5859 -5268 7.62939e-006) (5859 -5268 170)"
+			"plane" "(5859 -3037 0) (5859 -5268 0) (5859 -5268 170)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -12] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -89608,7 +89619,7 @@ entity
 		side
 		{
 			"id" "25092"
-			"plane" "(5122 -3037 7.62939e-006) (5859 -3037 7.62939e-006) (5859 -3037 170)"
+			"plane" "(5122 -3037 0) (5859 -3037 0) (5859 -3037 170)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 36] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -89619,7 +89630,7 @@ entity
 		side
 		{
 			"id" "25091"
-			"plane" "(5859 -5268 7.62939e-006) (5122 -5268 7.62939e-006) (5122 -5268 170)"
+			"plane" "(5859 -5268 0) (5122 -5268 0) (5122 -5268 170)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 36] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -89654,6 +89665,7 @@ entity
 	"spawnflags" "2"
 	"SquadID" "-1"
 	"StartDisabled" "0"
+	"targetname" "sz1"
 	"TeamNum" "3"
 	solid
 	{
@@ -89726,14 +89738,15 @@ entity
 		}
 		editor
 		{
-			"color" "220 30 220"
+			"color" "255 228 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 228 0"
+		"groupid" "27181"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -89751,6 +89764,7 @@ entity
 	"spawnflags" "2"
 	"SquadID" "-1"
 	"StartDisabled" "0"
+	"targetname" "sz1"
 	"TeamNum" "3"
 	solid
 	{
@@ -89823,14 +89837,15 @@ entity
 		}
 		editor
 		{
-			"color" "220 30 220"
+			"color" "255 228 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 228 0"
+		"groupid" "27181"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -89848,6 +89863,7 @@ entity
 	"spawnflags" "2"
 	"SquadID" "-1"
 	"StartDisabled" "0"
+	"targetname" "sz1"
 	"TeamNum" "3"
 	solid
 	{
@@ -89920,14 +89936,15 @@ entity
 		}
 		editor
 		{
-			"color" "220 30 220"
+			"color" "255 228 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 228 0"
+		"groupid" "27181"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -89945,6 +89962,7 @@ entity
 	"spawnflags" "2"
 	"SquadID" "-1"
 	"StartDisabled" "0"
+	"targetname" "sz1"
 	"TeamNum" "3"
 	solid
 	{
@@ -90017,14 +90035,15 @@ entity
 		}
 		editor
 		{
-			"color" "220 30 220"
+			"color" "255 228 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 228 0"
+		"groupid" "27181"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -90042,6 +90061,7 @@ entity
 	"spawnflags" "2"
 	"SquadID" "-1"
 	"StartDisabled" "0"
+	"targetname" "sz1"
 	"TeamNum" "3"
 	solid
 	{
@@ -90114,14 +90134,15 @@ entity
 		}
 		editor
 		{
-			"color" "220 30 220"
+			"color" "255 228 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 228 0"
+		"groupid" "27181"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -90139,6 +90160,7 @@ entity
 	"spawnflags" "2"
 	"SquadID" "-1"
 	"StartDisabled" "0"
+	"targetname" "sz1"
 	"TeamNum" "3"
 	solid
 	{
@@ -90211,14 +90233,15 @@ entity
 		}
 		editor
 		{
-			"color" "220 30 220"
+			"color" "255 228 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 228 0"
+		"groupid" "27181"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -90333,6 +90356,7 @@ entity
 	"spawnflags" "2"
 	"SquadID" "-1"
 	"StartDisabled" "0"
+	"targetname" "sz1"
 	"TeamNum" "3"
 	solid
 	{
@@ -90405,14 +90429,15 @@ entity
 		}
 		editor
 		{
-			"color" "220 30 220"
+			"color" "255 228 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 228 0"
+		"groupid" "27181"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -90534,7 +90559,7 @@ entity
 {
 	"id" "16728"
 	"classname" "env_sun"
-	"angles" "0 45 0"
+	"angles" "0 -45 0"
 	"HDRColorScale" "1"
 	"material" "sprites/light_glow02_add_noz"
 	"overlaycolor" "0 0 0"
@@ -91180,6 +91205,7 @@ entity
 	"spawnflags" "2"
 	"SquadID" "-1"
 	"StartDisabled" "0"
+	"targetname" "sz2"
 	"TeamNum" "2"
 	solid
 	{
@@ -91198,7 +91224,7 @@ entity
 		side
 		{
 			"id" "19478"
-			"plane" "(3811 -5402 7.62939e-006) (3811 -5888 7.62939e-006) (5930 -5888 7.62939e-006)"
+			"plane" "(3811 -5402 0) (3811 -5888 0) (5930 -5888 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 8] 0.25"
 			"vaxis" "[0 -1 0 -36] 0.25"
@@ -91209,7 +91235,7 @@ entity
 		side
 		{
 			"id" "19477"
-			"plane" "(3811 -5888 7.62939e-006) (3811 -5402 7.62939e-006) (3811 -5402 170)"
+			"plane" "(3811 -5888 0) (3811 -5402 0) (3811 -5402 170)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 36] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -91220,7 +91246,7 @@ entity
 		side
 		{
 			"id" "19476"
-			"plane" "(5930 -5402 7.62939e-006) (5930 -5888 7.62939e-006) (5930 -5888 170)"
+			"plane" "(5930 -5402 0) (5930 -5888 0) (5930 -5888 170)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 36] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -91231,7 +91257,7 @@ entity
 		side
 		{
 			"id" "19475"
-			"plane" "(3811 -5402 7.62939e-006) (5930 -5402 7.62939e-006) (5930 -5402 170)"
+			"plane" "(3811 -5402 0) (5930 -5402 0) (5930 -5402 170)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 8] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -91242,7 +91268,7 @@ entity
 		side
 		{
 			"id" "19474"
-			"plane" "(5930 -5888 7.62939e-006) (3811 -5888 7.62939e-006) (3811 -5888 170)"
+			"plane" "(5930 -5888 0) (3811 -5888 0) (3811 -5888 170)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 8] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
