@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10247"
-	"mapversion" "95"
+	"mapversion" "96"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "95"
+	"mapversion" "96"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -9172,6 +9172,7 @@ entity
 	"barrel" "70"
 	"barrely" "0"
 	"barrelz" "15"
+	"bullet" "3"
 	"bullet_damage" "35"
 	"bullet_damage_vs_player" "0"
 	"control_volume" "guncontrolvolume"
